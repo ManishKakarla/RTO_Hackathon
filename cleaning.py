@@ -8,7 +8,7 @@ import geopy.distance
 animalDF = pd.read_excel(os.path.join("data", "Animal Data.xlsx"))
 
 
-gmaps = googlemaps.Client(key='AIzaSyBj47Ce7_0rkOTPHZllLAfonfYqu6oW1x0')
+gmaps = googlemaps.Client(key='API_KEY')
 
 # # Geocoding an address
 # geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')
